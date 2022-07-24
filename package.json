@@ -1,6 +1,6 @@
 {
-  "name": "mantine",
-  "private": true,
+  "name": "withub-mantine",
+  "private": false,
   "workspaces": [
     "src/*"
   ],
