@@ -12,7 +12,8 @@
   "license": "MIT",
   "scripts": {
     "sync-branches": "sh scripts/sync-branches.sh",
-    "postinstall": "npm run docs:docgen && cd docs && yarn",
+    "postinstall": "yarn",
+    "postinstall-docs": "npm run docs:docgen && cd docs && yarn",
     "syncpack": "syncpack list-mismatches",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts,.tsx",
